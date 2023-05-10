@@ -13,3 +13,11 @@ This package provides a new org link type for playing back multimedia files from
 The two main commands are `org-emms-insert-track` and `org-emms-insert-track-position`. The latter is especially useful for aligning text with audio when transcribing spoken language.
 
 It is also possible to make a usual org link (with `org-store-link` command) from EMMS playlist and browser buffers, and then insert it into an org-mode buffer (with `org-insert-link` command).
+
+# Open issues
+
+## Support urls via emms-play-url (from Jelle Licht)
+
+Does it make sense to have org-emms support urls as well? I currently hacked around things to support youtube videos in emms using MPV. If you think this is out of scope for org-emms, never mind.
+
+If you do think it makes sense, I could try to clean up my hacks using e.g. `cl-defgeneric`.
