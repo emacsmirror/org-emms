@@ -14,9 +14,9 @@ The two main commands are `org-emms-insert-track` and `org-emms-insert-track-pos
 
 It is also possible to make a usual org link (with `org-store-link` command) from EMMS playlist and browser buffers, and then insert it into an org-mode buffer (with `org-insert-link` command).
 
-# Open issues
+## Open issue from Jelle Licht
 
-## Support urls via emms-play-url (from Jelle Licht)
+### Support urls via emms-play-url
 
 Does it make sense to have org-emms support urls as well? I currently hacked around things to support youtube videos in emms using MPV. If you think this is out of scope for org-emms, never mind.
 
