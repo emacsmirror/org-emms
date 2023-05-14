@@ -6,7 +6,7 @@
 ;; Version: 0.1
 ;; URL: https://gitlab.com/jagrg/org-emms
 ;; Keywords: multimedia
-;; Package-Requires: ((emacs "24"))
+;; Package-Requires: ((emacs "24.1") (org "9.3") (emms "0.0"))
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
