@@ -145,7 +145,7 @@ for a track position."
       (let ((desc (read-string "Description: ")))
 	(insert
 	 (if (equal desc "")
-	     (format "[[emms:%s]]" (file-relative-name file) desc)
+	     (format "[[emms:%s]]" (file-relative-name file))
 	   (format "[[emms:%s][%s]]" (file-relative-name file) desc)))))))
 
 ;;;###autoload
