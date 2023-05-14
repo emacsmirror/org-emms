@@ -127,7 +127,7 @@ The return value is a cons cell (link . description)."
   (when (derived-mode-p 'emms-playlist-mode
                         'emms-browser-mode)
     (let ((link (org-emms-make-link)))
-      (org-store-link-props
+      (org-link-store-props
        :type        "emms"
        :link        (car link)
        :description (cdr link)))))
