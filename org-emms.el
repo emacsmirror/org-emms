@@ -1,10 +1,10 @@
 ;;; org-emms.el --- Play multimedia files in org-mode -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2016-2018 Jonathan Gregory
+;; Copyright (C) 2016-2023 Jonathan Gregory
 
 ;; Author: Jonathan Gregory <jgrg at autistici dot org>
-;; Version: 0.1
-;; URL: https://gitlab.com/jagrg/org-emms
+;; Version: 0.2
+;; URL: https://git.sr.ht/~jagrg/org-emms
 ;; Keywords: multimedia
 ;; Package-Requires: ((emacs "24.1") (org "9.3") (emms "0.0"))
 
