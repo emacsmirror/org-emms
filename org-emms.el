@@ -1,4 +1,4 @@
-;;; org-emms.el --- Play multimedia files in org-mode -*- lexical-binding: t; -*-
+;;; org-emms.el --- Playback multimedia files from Org documents  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2016-2023 Jonathan Gregory
 
@@ -24,9 +24,9 @@
 ;;; Commentary:
 
 ;; This package provides a new org link type for playing back
-;; multimedia files in org-mode using EMMS, The Emacs Multimedia
-;; System. If the link contains a track position, playback will start
-;; at the specified position. For example:
+;; multimedia files from Org documents using EMMS, The Emacs
+;; Multimedia System. If the link contains a track position, playback
+;; will start at the specified position. For example:
 
 ;; [[emms:/path/to/audio.mp3::2:43]]     Starts playback at 2 min 43 sec.
 ;; [[emms:/path/to/audio.mp3::1:10:45]]  Starts playback at 1 hr 10 min 45 sec.
